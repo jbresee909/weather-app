@@ -1,0 +1,60 @@
+body {
+    color: #333333;
+    font-family: arial;
+    margin: 0 auto;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    text-align: left;
+    padding: 0 25px;
+}
+
+footer {
+    color: #eeeeee;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 16px;
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header {
+    margin-bottom: 48px;
+    padding: 8px 16px;
+    background: #aa4b6b;  /* fallback for old browsers */
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    text-decoration: none;
+    color: #eeeeee;
+    margin-right: 16px;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
