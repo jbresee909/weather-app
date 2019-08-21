@@ -9,7 +9,7 @@ const forecast = (latitude,longitude, callback) => {
         } else if (body.error) {
             callback('Unable to find location', undefined)
         } else {
-            callback(undefined, 'The current temperature is ' + body.currently.temperature + '. There is curreenlt a humidity level of ' + body.currently.humidity); 
+            callback(undefined, 'The current temperature is ' + body.currently.temperature + '. There is currently a humidity level of ' + body.currently.humidity + '. The current conditions are ' + body.hourly.summary); 
         }
     })
     }
